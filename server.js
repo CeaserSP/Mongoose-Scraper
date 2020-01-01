@@ -73,7 +73,7 @@ app.get("/scrape", function(req, res) {
     res.send("Scrape Complete");
   });
 });
-console.log($);
+
 // Route for getting all Articles from the db
 app.get("/articles", function(req, res) {
   // Grab every document in the Articles collection
